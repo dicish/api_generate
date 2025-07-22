@@ -18,7 +18,7 @@ def generate_tts_ru_female(token, text, speech_rate=1.0):
 
 def create_avatar_video(anchor_id, anchor_type, audio_url):
     headers = {"Authorization": TOKEN, "Content-Type": "application/json"}
-    payload = {"title": "API generated video", "anchor_id": anchor_id,
+    payload = {"title": "Project Avatar", "anchor_id": anchor_id,
                "anchor_type": anchor_type, "audioSrc": audio_url}
     resp = requests.post(API_URL, json=payload, headers=headers)
     resp.raise_for_status()

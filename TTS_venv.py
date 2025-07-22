@@ -5,7 +5,7 @@ import streamlit as st
 GENERATE_TTS_URL = "https://video.a2e.ai/api/v1/video/send_tts"
 API_URL = "https://video.a2e.ai/api/v1/video/generate"
 STATUS_URL = "https://video.a2e.ai/api/v1/video/awsResult"
-TOKEN = "Bearer YOUR_TOKEN"  # Ваш токен
+TOKEN = "Bearer YOUR_TOKEN"
 
 
 def generate_tts_ru_female(token, text, speech_rate=1.0):
